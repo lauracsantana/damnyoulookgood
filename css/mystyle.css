@@ -1,0 +1,322 @@
+ 
+ @font-face {
+	font-family: "Antonio";
+	src: url(https://fonts.google.com/specimen/Antonio?query=anto);}
+ 
+ @font-face {
+	font-family: "Oswald";
+	src: url(https://fonts.google.com/?query=oswald);}
+
+ @font-face {
+	font-family: "Bebas";
+	src: url(https://fonts.google.com/specimen/Bebas+Neue?query=bebas); }
+
+ @font-face {
+	font-family: "Manrope";
+	src: url(https://fonts.google.com/specimen/Manrope);}
+ 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-size: 100%;
+	background: url(../images/background.png);
+}
+
+/*-----------HEADER ALL PAGES------------*/
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: white;
+}
+
+.logo_top_right{
+	height: 200px; 
+	width:192.0; 
+	height:172.5;
+	align-items: left;
+}
+
+.navigator{
+	display: flex;
+	gap: 75px;
+}
+
+.menu_item{
+	font-family:"Oswald";
+	color: black;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+/*-----------PAGE 2--------------*/
+
+.main_content{
+	border-top: 5px solid black;
+	margin-bottom: 45px;
+	display: flex;
+	flex-direction: row;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	gap: 75px;
+}
+
+.page_name{
+	display: flex;
+	font-family: "Oswald";
+	font-size: 75px;
+	font-weight: 400;
+	padding-left: 75px;
+}
+.welcome_message{
+	font-family:"Oswald";
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+	padding-left: 75px;
+}
+
+.about_us{
+	font-family:"Oswald";
+	font-size: 35px;
+	font-weight: 400;
+	color: white;
+	max-width: 600px;
+	padding-left: 75px;
+
+}
+
+.inicial_image {
+	padding-top: 250px;
+	padding-left:75px ;
+	width: 500px;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 25px;
+}
+
+.table {border: 1px solid black;
+	width: 500px;
+	align-content: center;
+	border-radius: 4px;
+	text-align: center;
+	font-family:"Manrope" ;
+
+}
+
+th {border: 1px solid black;
+	}
+
+
+tr {border: 1px solid black;
+	text-align: center;
+	font-family: ;}
+	
+td {border: 1px solid black}
+
+
+/*------------FOOTER ALL PAGES------------*/
+.footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	border-top: 5px solid black;
+	margin-bottom: 20px;
+	justify-content: space-around;
+	padding: 25px;
+	
+}
+
+.image_footer {
+	width: 350px;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.twitter_logo {
+	width: 50px;
+}
+
+.instagram_logo{
+	width: 50px;
+}
+
+
+
+/*-----------PAGE 2--------------*/
+
+.catalogue_shop {
+	border-top: 5px solid black;
+	display: flex;
+	flex-direction: column;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.first_line{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+
+.blue_scarf {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+}
+
+.blue_scarf_image{
+	width: 350px;
+}
+
+.blue_scarf_text{
+	font-family:"Manrope"; 
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.summer_hat{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.summer_hat_image{
+	width: 350px;
+}
+
+.Summer_hat_text{
+	font-family:"Manrope"; 
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.book{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.book_image{
+	width: 350px;
+}
+
+.book_text{
+	font-family:"Manrope"; 
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.second_line{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+
+.boho_hat{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.boho_hat_image{
+	width: 350px;
+}
+
+.boho_hat_text{
+	font-family:"Manrope"; 
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.pink_scarf {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.pink_scarf_image{
+	width: 350px;
+}
+
+.pink_scarf_text{
+	font-family:"Manrope"; 
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.sunglasses{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.sunglasses_image{
+	width: 350px;
+}
+
+.sunglasses_text{
+	font-family:"Manrope"; 
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/*-----------PAGE 3--------------*/
+
+.forms{
+	border-top: 5px solid black;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	justify-content: space-around;
+	padding-left: 50px;
+	font-family:"Manrope"; 
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.submit{
+	max-width: 100px;
+	padding: 10px;
+	align-items: center;
+}
+
+input {border-radius: 5px;}
+select {border-radius: 5px;}
+textarea {border-radius: 5px;}
+
